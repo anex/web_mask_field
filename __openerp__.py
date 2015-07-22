@@ -33,6 +33,8 @@ Fields mask widgets
 =============
 This module adds widgets to use mask on fields, using jQuery InputMask https://github.com/RobinHerbots/jquery.inputmask.
 
+Fields Declaration:
+
 To use it you must declare the fields on the views as follow:
 
 <field name="phone" widget="phone"/>
@@ -42,6 +44,12 @@ To use it you must declare the fields on the views as follow:
 <field name="phone" widget="mask" options="{'mask': '(99) 9999-9999'}"/>
 <field name="phone" widget="mask" options="{'alias': 'date'}"/>
 <field name="phone" widget="mask" options="{'alias': 'ip'}"/>
+
+Default masking definitions:
+
+    9 : numeric
+    a : alphabetical
+    * : alphanumeric
 
 """,
     'images': [
