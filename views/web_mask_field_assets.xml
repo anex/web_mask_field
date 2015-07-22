@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<openerp>
+  <data>
+      <template id="web_mask_field_backend" name="web_mask_field assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link href="/web_mask_field/static/src/css/web_mask_field.css" rel="stylesheet"/>
+            <script type="text/javascript" src="/web_mask_field/static/lib/jquery.inputmask.js"></script>
+            <script type="text/javascript" src="/web_mask_field/static/lib/jquery.inputmask.extensions.js"></script>
+            <script type="text/javascript" src="/web_mask_field/static/lib/jquery.inputmask.numeric.extensions.js"></script>
+            <script type="text/javascript" src="/web_mask_field/static/lib/jquery.inputmask.regex.extensions.js"></script>
+            <script type="text/javascript" src="/web_mask_field/static/src/js/web_mask_field.js"></script>
+        </xpath>
+      </template>
+  </data>
+</openerp>
