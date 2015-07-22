@@ -59,7 +59,7 @@ openerp.web_mask_field = function (instance) {
             this.$('input').attr('data-inputmask', this.mask);
             this.$('input').inputmask(undefined, {
                 onincomplete: function () {
-                    self.$el.addClass('oe_form_invalid');
+                    //self.$el.addClass('oe_form_invalid');
                 },
                 oncomplete: function () {
                     self.$el.removeClass('oe_form_invalid');
@@ -77,7 +77,7 @@ openerp.web_mask_field = function (instance) {
             this.$('input').attr('data-inputmask', this.mask);
             this.$('input').inputmask(undefined, {
                 onincomplete: function () {
-                    self.$el.addClass('oe_form_invalid');
+                    //self.$el.addClass('oe_form_invalid');
                 },
                 oncomplete: function () {
                     self.$el.removeClass('oe_form_invalid');
