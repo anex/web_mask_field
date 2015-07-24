@@ -32,7 +32,7 @@ openerp.web_mask_field = function (instance) {
     instance.web.form.widgets.add('mask', 'instance.web.form.FieldMask');
 
     instance.web.form.FieldPhone = instance.web.form.FieldChar.extend({
-        mask: "'mask': '(99) 9999-9999'",
+        mask: "'mask': '(999) 999-9999'",
         render_value: function () {
             var self = this;
             this._super();
